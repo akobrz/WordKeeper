@@ -1,0 +1,63 @@
+@charset "UTF-8";
+body {
+	background-color: lightgrey;
+}
+input {
+	width: 400px; 
+	padding:12px; 
+	background-color: white;
+}
+h2{
+	padding:12px;
+	font-size: 95%;
+	background-color: lightgrey;
+	text-align: left;
+}
+button{
+	width: 200px; 
+	padding:12px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+	background-color: lightgreen;
+}
+label{
+	width: 200px; 
+	padding: 12px; 
+	text-align: left;
+	background-color: papayawhip;
+	overflow: visible;
+	text-overflow: ellipsis;
+}
+p{
+	width: 500px; 
+	padding: 12px; 
+	text-align: left;
+	font-size: 90%;
+	background-color: papayawhip;
+}
+mark{
+	color: indianred;
+	background-color: papayawhip;
+}
+thead{
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: left;
+	font-size: 80%;
+	vertical-align: middle;
+	background-color: lightgreen;
+	color: black;
+}
+tbody{
+}
+table{
+	display: block;
+	overflow-y: auto;
+	overflow-x: hidden; 
+	height: 400px;
+}
+td {
+	font-size: 70%;
+}
+div {
+	background-image: url('images/paper.jpg');
+}
